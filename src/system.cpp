@@ -88,14 +88,14 @@ void draw_status (sf::RenderWindow* window, Status s, int diff) {
 	text.setPosition(500, 150);
 
 	if (s == ON_GOING) {
-		text.setString("en cours...");
+		text.setString("on going...");
 	} else if (s == DRAW) {
-		text.setString("egalite");
+		text.setString("draw");
 	} else if (s == X_WIN) {
-		text.setString("X gagne");
+		text.setString("X wins");
 		text.setFillColor(sf::Color::Red);
 	} else {
-		text.setString("O gagne");
+		text.setString("O wins");
 		text.setFillColor(sf::Color::Blue);
 	}
 

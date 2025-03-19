@@ -9,7 +9,7 @@ int main () {
 	int DIFFICULTY = 9;
 
 	std::srand(std::time(nullptr));
-	sf::RenderWindow window(sf::VideoMode(800, 500), "Werks");
+	sf::RenderWindow window(sf::VideoMode(800, 500), "Tictactoe AI");
 	sf::RectangleShape lines[4];
 	for (int i = 0; i < 4; i++) {
 		lines[i] = sf::RectangleShape(sf::Vector2f(450, 10));
