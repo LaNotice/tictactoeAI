@@ -1,5 +1,5 @@
 # Tictactoe
-a simple tictactoe game with a adjustable AI
+a simple tictactoe game with an adjustable AI
 
 ## controls
 *right click*: play a move
